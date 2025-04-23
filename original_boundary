@@ -1,0 +1,616 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+85
+(
+    wall_without_prismlayer.6
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2434;
+        startFace       19899837;
+    }
+    wall_without_prismlayer.7
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          653;
+        startFace       19902271;
+    }
+    inner_wall_filter_clean_gas_1_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          17076;
+        startFace       19902924;
+    }
+    inner_wall_filter_clean_gas_1_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          17076;
+        startFace       19920000;
+    }
+    wall_without_prismlayer.8
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2445;
+        startFace       19937076;
+    }
+    wall_filter_bottom_2_b__5-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       19939521;
+    }
+    wall_filter_bottom_2_b__5
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       19939773;
+    }
+    wall_without_prismlayer.9
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          645;
+        startFace       19940025;
+    }
+    wall_filter_bottom_1_b__5-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          430;
+        startFace       19940670;
+    }
+    wall_filter_bottom_1_b__5
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          430;
+        startFace       19941100;
+    }
+    inner_wall_filter_clean_gas_6_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          17091;
+        startFace       19941530;
+    }
+    inner_wall_filter_clean_gas_6_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          17091;
+        startFace       19958621;
+    }
+    wall_without_prismlayer.10
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1628;
+        startFace       19975712;
+    }
+    wall_filter_bottom_2_b__4-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       19977340;
+    }
+    wall_filter_bottom_2_b__4
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       19977592;
+    }
+    wall_without_prismlayer.11
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          544;
+        startFace       19977844;
+    }
+    wall_filter_bottom_1_b__4-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          430;
+        startFace       19978388;
+    }
+    wall_filter_bottom_1_b__4
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          430;
+        startFace       19978818;
+    }
+    inner_wall_filter_clean_gas_5_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16984;
+        startFace       19979248;
+    }
+    inner_wall_filter_clean_gas_5_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16984;
+        startFace       19996232;
+    }
+    wall_without_prismlayer.12
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1888;
+        startFace       20013216;
+    }
+    wall_filter_bottom_2_b__3-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       20015104;
+    }
+    wall_filter_bottom_2_b__3
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       20015356;
+    }
+    wall_without_prismlayer.13
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          567;
+        startFace       20015608;
+    }
+    wall_filter_bottom_1_b__3-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          428;
+        startFace       20016175;
+    }
+    wall_filter_bottom_1_b__3
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          428;
+        startFace       20016603;
+    }
+    inner_wall_filter_clean_gas_4_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16986;
+        startFace       20017031;
+    }
+    inner_wall_filter_clean_gas_4_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16986;
+        startFace       20034017;
+    }
+    wall_without_prismlayer.14
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1889;
+        startFace       20051003;
+    }
+    wall_filter_bottom_2_b__2-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       20052892;
+    }
+    wall_filter_bottom_2_b__2
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       20053144;
+    }
+    wall_without_prismlayer
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          553;
+        startFace       20053396;
+    }
+    wall_filter_bottom_1_b__1-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          515;
+        startFace       20053949;
+    }
+    wall_filter_bottom_1_b__1
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          515;
+        startFace       20054464;
+    }
+    inner_wall_filter_clean_gas_3_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16994;
+        startFace       20054979;
+    }
+    inner_wall_filter_clean_gas_3_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16994;
+        startFace       20071973;
+    }
+    wall_without_prismlayer.1
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1640;
+        startFace       20088967;
+    }
+    wall_filter_bottom_2_b__1-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       20090607;
+    }
+    wall_filter_bottom_2_b__1
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          252;
+        startFace       20090859;
+    }
+    wall_without_prismlayer.2
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          514;
+        startFace       20091111;
+    }
+    wall_filter_bottom_1_b__2-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          498;
+        startFace       20091625;
+    }
+    wall_filter_bottom_1_b__2
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          498;
+        startFace       20092123;
+    }
+    inner_wall_filter_clean_gas_2_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16996;
+        startFace       20092621;
+    }
+    inner_wall_filter_clean_gas_2_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16996;
+        startFace       20109617;
+    }
+    wall_with_prismlayer
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          186619;
+        startFace       20126613;
+    }
+    wall_without_prismlayer.3
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          27609;
+        startFace       20313232;
+    }
+    inner_wall_filter_1_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20503;
+        startFace       20340841;
+    }
+    inner_wall_filter_1_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20503;
+        startFace       20361344;
+    }
+    inner_wall_filter_2_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20277;
+        startFace       20381847;
+    }
+    inner_wall_filter_2_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20277;
+        startFace       20402124;
+    }
+    inner_wall_filter_3_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20341;
+        startFace       20422401;
+    }
+    inner_wall_filter_3_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20341;
+        startFace       20442742;
+    }
+    inner_wall_filter_4_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20376;
+        startFace       20463083;
+    }
+    inner_wall_filter_4_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20376;
+        startFace       20483459;
+    }
+    inner_wall_filter_5_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20307;
+        startFace       20503835;
+    }
+    inner_wall_filter_5_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20307;
+        startFace       20524142;
+    }
+    inner_wall_filter_6_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20503;
+        startFace       20544449;
+    }
+    inner_wall_filter_6_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          20503;
+        startFace       20564952;
+    }
+    wall_filter_bottom_1_a_-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          492;
+        startFace       20585455;
+    }
+    wall_filter_bottom_1_a_
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          492;
+        startFace       20585947;
+    }
+    wall_filter_bottom_2_a_-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          254;
+        startFace       20586439;
+    }
+    wall_filter_bottom_2_a_
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          254;
+        startFace       20586693;
+    }
+    inner_wall_sparktrap_1_b-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7763;
+        startFace       20586947;
+    }
+    inner_wall_sparktrap_1_b
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7763;
+        startFace       20594710;
+    }
+    wall_without_prismlayer.4
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1599;
+        startFace       20602473;
+    }
+    inner_wall_sparktrap_2_a-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          6515;
+        startFace       20604072;
+    }
+    inner_wall_sparktrap_2_a
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          6515;
+        startFace       20610587;
+    }
+    bc_plant_outlet
+    {
+        type            patch;
+        nFaces          236;
+        startFace       20617102;
+    }
+    bc_jet_cleaning
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          186;
+        startFace       20617338;
+    }
+    wall_with_prismlayer.1
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          152842;
+        startFace       20617524;
+    }
+    wall_without_prismlayer.5
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          129;
+        startFace       20770366;
+    }
+    inner_wall_clean_gas_1_b-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          358;
+        startFace       20770495;
+    }
+    inner_wall_clean_gas_1_b
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          358;
+        startFace       20770853;
+    }
+    inner_wall_clean_gas_2_b-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          194;
+        startFace       20771211;
+    }
+    inner_wall_clean_gas_2_b
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          194;
+        startFace       20771405;
+    }
+    inner_wall_clean_gas_3_b-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          337;
+        startFace       20771599;
+    }
+    inner_wall_clean_gas_3_b
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          337;
+        startFace       20771936;
+    }
+    inner_wall_clean_gas_4_b-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          336;
+        startFace       20772273;
+    }
+    inner_wall_clean_gas_4_b
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          336;
+        startFace       20772609;
+    }
+    inner_wall_clean_gas_5_b-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          200;
+        startFace       20772945;
+    }
+    inner_wall_clean_gas_5_b
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          200;
+        startFace       20773145;
+    }
+    inner_wall_clean_gas_6_b-slit
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          358;
+        startFace       20773345;
+    }
+    inner_wall_clean_gas_6_b
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          358;
+        startFace       20773703;
+    }
+    bc_plant_inlet
+    {
+        type            patch;
+        nFaces          202;
+        startFace       20774061;
+    }
+    wall_with_prismlayer.2
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          26610;
+        startFace       20774263;
+    }
+)
+
+// ************************************************************************* //
