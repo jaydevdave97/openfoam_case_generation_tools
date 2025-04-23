@@ -1,6 +1,6 @@
 # Boundary File Converter for OpenFOAM
 
-This Python script (`01_boudry file_match_wall_to_cyclic.py`) converts internal wall boundaries to cyclic patches in OpenFOAM boundary files created from Fluent meshes.
+This Python script (`01_boundary_file_change_wall_to_cyclic.py`) converts internal wall boundaries to cyclic patches in OpenFOAM boundary files created from Fluent meshes.
 
 ## Introduction
 
